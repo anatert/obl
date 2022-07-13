@@ -33,12 +33,19 @@ for value in range(1,11):
     coub.append(value**2)
 print(coub)'''
 
-'''#4.9
-coub = [value**2 for value in range(1,11)]
+#4.9
+'''coub = [value**2 for value in range(1,11)]
 print(coub)'''
+
+'''for value in coub:
+    print(value)'''
+
 
 '''list = [i for i in range(1,500)]
 print(list)'''
+
+
+
 
 
 
