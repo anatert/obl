@@ -18,11 +18,11 @@ for user in new_users:
     else:
         print(user + ' Имя свободно')'''
 
-numbers = [str(i) for i in range(1,10)]
+'''numbers = [str(i) for i in range(1,10)]
 for number in numbers:
   if number == "1":
       print(number + 'st')
   elif number == '2' or number == '3':
       print(number + 'nd')
   else:
-      print(number + 'th')
+      print(number + 'th')'''
