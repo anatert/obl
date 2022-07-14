@@ -21,7 +21,7 @@ elif age >= 20 and age < 65:
 elif age >= 65:
     print('Пожилой челоек')'''
 
-favorite_fruits = ['apple', 'pineapple', 'watermelon', 'avokado', 'orange']
+'''favorite_fruits = ['apple', 'pineapple', 'watermelon', 'avokado', 'orange']
 
 if 'orange' in favorite_fruits:
     print('You really like bananas!')
@@ -32,7 +32,7 @@ if 'kiwi' in favorite_fruits:
 if 'apple' in favorite_fruits:
     print('You really like bananas!')
 if 'avokado' in favorite_fruits:
-    print('You really like bananas!')
+    print('You really like bananas!')'''
 
 
 

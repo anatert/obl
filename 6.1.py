@@ -13,11 +13,13 @@ print('Human city: ' + human['city'])'''
 for name in names:
     print('My name is ' + name + ' my date: ' + names[name])'''
 
-'''slov = {'print': 'Вывод результата на экран',
-         'for': 'цикл перебора',
+slov = {'"print"': 'Вывод результата на экран',
+         '"for"': 'цикл перебора',
          '"[]"': 'список',
          '"{}"': 'Словарь',
          '"()"': 'Кортеж',
+         '".strip()"': 'убрать пробелы',
+        '".title()"': 'с большой буквы'
          }
-for name in slov:
-    print('Key: ' + name + ' Description: ' + slov[name] + '\n')'''
+'''for key, value in slov.items():
+    print('Key: ' + key + ' Description: ' + value.title() + '\n')'''
