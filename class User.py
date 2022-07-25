@@ -23,7 +23,7 @@ class User():
         print(f'Hello, {self.fname} {self.lname}\n')
 
 
-u1 = User('FIRSTNAME1', 'SECONDNAME1', 'LASTNAME1', 'NICKNAME1')
+'''u1 = User('FIRSTNAME1', 'SECONDNAME1', 'LASTNAME1', 'NICKNAME1')
 u2 = User('FIRSTNAME2', 'SECONDNAME2', 'LASTNAME2', 'NICKNAME2')
 u3 = User('FIRSTNAME3', 'SECONDNAME3', 'LASTNAME3', 'NICKNAME3')
 
@@ -33,4 +33,30 @@ u1.increment_login_attempts()
 u1.increment_login_attempts()
 u1.increment_login_attempts()
 u1.reset_login_attempts()
-print(u1.login_attempts)
+print(u1.login_attempts)'''
+
+
+class Admin(User):
+
+    def __init__(self, fname, sname, lname, nickname,):
+        super().__init__(fname, sname, lname, nickname)
+        self.privileges = Privileges()
+
+class Privileges():
+
+    def __init__(self, ):
+        self.privileges = ['разрешено добавлять сообщения',
+                           'разрешено удалять пользователей',
+                           'разрешено банить пользователей']
+
+    def show_privileges(self):
+        print(f'Privileges: {self.privileges}')
+
+u1 = Admin('FIRSTNAME1', 'SECONDNAME2', 'LASTNAME3', 'NICKNAME4',)
+
+u1.privileges.show_privileges()
+
+
+
+
+
